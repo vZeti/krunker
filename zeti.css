@@ -1,0 +1,152 @@
+/*-------------------------------------------------
+Zetiware CSS
+Twitter: SpawnLocation
+Author: SpawnLocation
+-------------------------------------------------*/
+:root {
+    --c1: #3a8c8a;
+    --yourTeam: #8de3ff;
+    --oppTeam: #fbb6ff }
+* {}
+/* Ads + Misc */
+::-webkit-scrollbar {
+    display: none!important; }
+#braveWarning {
+    display: none!important; }
+#aMerger,
+#aHolder {
+    display: none!important; }
+#endAMerger,
+#endAContainer {
+    display: none!important; }
+#loadHeader {
+    display: none; }
+#braveWarning {
+    display: none!important; }
+#tlInfHold {
+    display: none!important; }
+#newsHolder {
+    display: none!important; }
+.verticalSeparatorInline {
+    display: none!important; }
+#rankedSoonTm {
+    display: none!important; }
+a {
+    color: var(--c1)!important; }
+/* Menu */
+/* Logo */
+#mainLogo {
+    display: none!important; }
+#seasonLabel {
+    display: none!important; }
+div#gameNameHolder {
+    top: 5%; }
+div#gameNameHolder:after {
+    content: "Zetiware💫";
+    color: transparent;
+    font-size: 75px;
+    transform: skewX(-20deg) scaleY(1);
+    text-shadow: 4px 4px var(--c1);
+    filter: drop-shadow(2.5px 0px 0px black); }
+/* Buttons */
+.menuItem .menuItemTitle {
+    display: none!important; }
+span.material-icons-outlined.menBtnIcn {
+    color: var(--c1)!important; }
+.button {
+    border: 4px solid var(--c1)!important; }
+img#faceItIconM {
+    display: none!important; }
+/* Misc */
+#termsInfo {
+    display: flex;
+    border: 0!important;
+    height: fit-content;
+    flex-direction: row;
+    background: transparent;
+    text-align: center;
+    transition: 0.3s; }
+.terms {
+    font-size: 0px!important;
+    color: white!important;
+    transition: 0.3s; }
+#termsInfo:hover .terms {
+    font-size: 18px!important;
+    transition: 0.3s;
+    margin-left: 10px; }
+#mapInfo {
+    display: none!important; }
+.terms:last-child {
+    display: block !important;
+    font-size: 18px!important; }
+/* Ingame */
+/* Health */
+div#bottomLeftHolder {
+    bottom: -30px!important; }
+div#hudClassIcon {
+    display: none!important; }
+div#healthValueHolder {
+    background: transparent!important; }
+div#healthValue {
+    font-size: 40px;
+    text-shadow: 4px 4px #000; }
+div#healthBar {
+    display: none!important; }
+span#maxHP {
+    display: none!important; }
+img#challIcon {
+    display: none!important; }
+/* Ammo */
+div#bottomRight {
+    bottom: 20px!important; }
+div#ammoDisplay {
+    background: transparent; }
+div#ammoVal {
+    color: white!important;
+    font-size: 40px;
+    text-shadow: 4px 4px #000; }
+div#ammoMax {
+    display: none!important; }
+img#ammoIcon {
+    display: none!important; }
+/* Leaderboard */
+div#roundsDisplay {
+    display: none!important; }
+.leaderCounter {
+    display: none!important; }
+/* Weapons */
+div#weapDisplay {
+    right: unset;
+    left: 20px;
+    bottom: 150px!important;
+    position: fixed;
+    transform: rotateY(180deg) scale(1.1); }
+.weapKey {
+    display: none!important; }
+/* Timer */
+div#timerDisplay {
+    transform: translateX(50%);
+    right: 50%;
+    will-change: unset!important;
+    position: fixed; }
+#timerIcon {
+    display: none!important; }
+/* Random */
+div#curGameInfo {
+    display: none!important; }
+div#tScoreC1 {
+    display: none!important; }
+div#tScoreC2 {
+    display: none!important; }
+span#tScoreV1 {
+    color: var(--yourTeam); }
+span#tScoreV2 { color: var(--oppTeam); }
+div#uiBase.onGame #chatHolder {
+    transform: translateX(50%);
+    right: 6%;
+    bottom: 20px; }
+div#voiceDisplay {
+    display: none!important; }
+div#gameMessage {
+    margin-top: 100px;
+    text-shadow: 4px 4px black; }
